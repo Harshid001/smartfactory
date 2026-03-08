@@ -55,6 +55,9 @@ smartfactory/
 │   │   ├── App.jsx
 │   │   ├── main.jsx
 │   │   └── index.css
+|   |__public
+       |___ _redirects
+|   |__ netlify.toml
 │   ├── index.html
 │   ├── vite.config.js
 │   ├── tailwind.config.js
@@ -81,7 +84,7 @@ smartfactory/
 │   │   ├── maintenanceRoutes.js
 │   │   └── safetyRoutes.js
 │   ├── utils/
-│   │   └── seed.js           # Database seeder
+│   └── seed.js           # Database seeder
 │   ├── server.js
 │   ├── .env.example
 │   └── package.json
